@@ -1,0 +1,30 @@
+{
+    "name": "rtn-versions",
+    "version": "0.0.2",
+    "description": "Turbo Modules",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+        "js",
+        "android",
+        "!android/build"
+    ],
+    "keywords": [
+        "react-native",
+        "android"
+    ],
+    "license": "MIT",
+    "devDependencies": {},
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "codegenConfig": {
+        "name": "RTNDeviceSpec",
+        "type": "modules",
+        "jsSrcsDir": "js",
+        "android": {
+            "javaPackageName": "com.rtnrnversions"
+        }
+    }
+}
